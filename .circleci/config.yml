@@ -13,4 +13,4 @@ workflows:
       - cypress/run:
           install-command: npm install
       - cypress/run:
-          verify-command: npx cypress run -b chrome -s "cypress/e2e/api.test.automation.cy.js" 
+          run-command: npx cypress run -s "cypress/e2e/api.test.automation.cy.js" 
